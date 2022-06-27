@@ -1,4 +1,4 @@
-{
+g{
   "name": "Terraform Plan Workflow",
   "description": "Runs Terraform plan",
   "iconName": "terraform-icon",
@@ -8,7 +8,7 @@
     ".*\\.tf"
 ],
   "categories": [
-    "deployment",
+    "Deployment",
     "HCL",
     "IaC",
     "Terraform",
