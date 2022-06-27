@@ -1,0 +1,20 @@
+name: Merge Terraform PR
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - production
+      - non-production
+      - development
+      - shared
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    uses: medmera/terraform-flows/.github/workflows/merge-pr.yml@develop
+    with:
+      branch-name: ${process.env.GITHUB_BASE_REF}
+      github-repo: ${GITHUB_REPOSITORY}
+    secrets: inherit

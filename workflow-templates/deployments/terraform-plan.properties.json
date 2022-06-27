@@ -1,0 +1,8 @@
+{
+  "name": "Terraform Plan Workflow",
+  "description": "Runs Terraform plan",
+  "iconName": "terraform-icon",
+  "categories": [
+    "HCL"
+  ]
+}

@@ -1,0 +1,23 @@
+name: Terraform Plan
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - production
+      - non-production
+      - development
+      - shared
+    paths:
+      - ".github/**"
+      - "terraform"
+      - "terraform/**"
+jobs:
+  terraform:
+    uses: medmera/terraform-flows/.github/workflows/plan.yml@develop
+    with:
+      branch-name: ${GITHUB_BASE_REF}
+      working-directory: './terraform'
+    secrets: inherit

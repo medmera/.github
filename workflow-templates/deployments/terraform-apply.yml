@@ -1,0 +1,20 @@
+name: Terraform Apply
+on:
+  push:
+    branches:
+      - production
+      - non-production
+      - development
+      - shared
+    paths:
+      - ".github/**"
+      - "terraform"
+      - "terraform/**"
+
+jobs:
+  terraform:
+    uses: medmera/terraform-flows/.github/workflows/apply.yml@develop
+    with:
+      branch-name: ${GITHUB_REF_NAME}
+      working-directory: './terraform'
+    secrets: inherit
