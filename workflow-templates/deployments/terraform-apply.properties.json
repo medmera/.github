@@ -2,7 +2,7 @@
   "name": "Terraform Apply Workflow",
   "description": "Runs Terraform apply",
   "iconName": "terraform-icon",
-  "creator": "Rikard Wigforss",
+  "creator": "Platform Team",
   "categories": [
     "deployment",
     "HCL",
