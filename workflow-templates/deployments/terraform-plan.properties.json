@@ -1,8 +1,8 @@
-g{
+{
   "name": "Terraform Plan Workflow",
   "description": "Runs Terraform plan",
   "iconName": "terraform-icon",
-  "creator": "Rikard Wigforss",
+  "creator": "Platform Team",
   "filePatterns": [
     "terraform/.*\\.tf",
     ".*\\.tf"

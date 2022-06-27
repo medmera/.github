@@ -2,9 +2,9 @@
   "name": "Terraform Merge PR Workflow",
   "description": "Comment on PR when Merged",
   "iconName": "terraform-icon",
-  "creator": "Rikard Wigforss",
+  "creator": "Platform Team",
   "categories": [
-    "deployment",
+    "Deployment",
     "HCL",
     "IaC",
     "Terraform",
