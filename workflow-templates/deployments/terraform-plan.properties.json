@@ -2,7 +2,17 @@
   "name": "Terraform Plan Workflow",
   "description": "Runs Terraform plan",
   "iconName": "terraform-icon",
+  "creator": "Rikard Wigforss",
+  "filePatterns": [
+    "terraform/.*\\.tf",
+    ".*\\.tf"
+],
   "categories": [
-    "HCL"
+    "deployment",
+    "HCL",
+    "IaC",
+    "Terraform",
+    "GCP",
+    "Infrastructure as Code"
   ]
 }
