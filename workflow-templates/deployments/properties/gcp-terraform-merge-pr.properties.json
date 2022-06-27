@@ -1,6 +1,6 @@
 {
   "name": "GCP Terraform Merge PR Workflow",
-  "description": "Comment on PR when Merged",
+  "description": "Comment on PR when if it targets an environment branch and has been closed/merged",
   "iconName": "terraform-icon",
   "creator": "Platform Team",
   "categories": [

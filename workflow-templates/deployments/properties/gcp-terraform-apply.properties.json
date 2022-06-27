@@ -1,6 +1,6 @@
 {
   "name": "GCP Terraform Apply Workflow",
-  "description": "Runs Terraform apply for GCP Infrastructure",
+  "description": "Runs Terraform apply for GCP Infrastructure when code is merged to an environment branch",
   "iconName": "terraform-icon",
   "creator": "Platform Team",
   "categories": [
