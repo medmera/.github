@@ -1,6 +1,6 @@
 {
-  "name": "Terraform Plan Workflow",
-  "description": "Runs Terraform plan",
+  "name": "GCP Terraform Plan Workflow",
+  "description": "Runs Terraform plan for GCP Infrastructure",
   "iconName": "terraform-icon",
   "creator": "Platform Team",
   "filePatterns": [

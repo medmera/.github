@@ -1,8 +1,12 @@
 {
-  "name": "Terraform Merge PR Workflow",
-  "description": "Comment on PR when Merged",
+  "name": "GCP Terraform Apply Workflow",
+  "description": "Runs Terraform apply for GCP Infrastructure",
   "iconName": "terraform-icon",
   "creator": "Platform Team",
+  "filePatterns": [
+    "terraform/.*\\.tf",
+    ".*\\.tf"
+],
   "categories": [
     "Deployment",
     "HCL",
