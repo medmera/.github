@@ -16,5 +16,5 @@ jobs:
     uses: medmera/terraform-flows/.github/workflows/merge-pr.yml@develop
     with:
       branch-name: ${process.env.GITHUB_BASE_REF}
-      github-repo: ${GITHUB_REPOSITORY}
+      github-repo: ${process.env.GITHUB_REPOSITORY}
     secrets: inherit
