@@ -1,7 +1,7 @@
 {
   "name": "Maven Simple Verify",
   "description": "Verify PRs that are targeted for the develop branch. This workflow is intended for simple testless builds.",
-  "iconName": "maven-icon",
+  "iconName": "maven",
   "creator": "Platform Team",
   "categories": [
     "Continuous integration",

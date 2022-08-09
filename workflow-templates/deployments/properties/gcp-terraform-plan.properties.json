@@ -1,7 +1,7 @@
 {
   "name": "GCP Terraform Plan Workflow",
   "description": "Runs Terraform plan for GCP Infrastructure when a PR is created or updated targeting an environment branch",
-  "iconName": "terraform-icon",
+  "iconName": "terraform",
   "creator": "Platform Team",
   "categories": [
     "Deployment",

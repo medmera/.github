@@ -1,7 +1,7 @@
 {
   "name": "Maven Simple Release",
   "description": "Releases artifact automatically when code is pushed to the develop branch. This workflow is intended for simple testless builds.",
-  "iconName": "maven-icon",
+  "iconName": "maven",
   "creator": "Platform Team",
   "categories": [
     "Continuous integration",
