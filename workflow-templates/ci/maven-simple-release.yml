@@ -1,0 +1,13 @@
+name: Release
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - ".github/**"
+      - "pom.xml"
+      - "src/**"
+jobs:
+  release:
+    uses: medmera/java-flows/.github/workflows/maven-simple-release.yml@develop
+    secrets: inherit

@@ -1,0 +1,17 @@
+name: Verify
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - develop
+    paths:
+      - ".github/**"
+      - "pom.xml"
+      - "src/**"
+jobs:
+  verify:
+    uses: medmera/java-flows/.github/workflows/maven-simple-verify.yml@develop
+    secrets: inherit

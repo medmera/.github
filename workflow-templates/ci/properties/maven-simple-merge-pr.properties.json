@@ -1,0 +1,12 @@
+{
+  "name": "Maven Simple Merge PR",
+  "description": "Posts PR message with link to release workflow job",
+  "iconName": "maven-icon",
+  "creator": "Platform Team",
+  "categories": [
+    "Continuous-integration",
+    "XML",
+    "Maven",
+    "Java"
+  ]
+}
