@@ -15,6 +15,6 @@ jobs:
     if: github.event.pull_request.merged == true
     uses: medmera/shared-flows/.github/workflows/post-link-to-flow-if-pr-merged.yml@develop
     with:
-      release-workflow-filename: 'gcp-terraform-release.yml'
+      linked-workflow-filename: 'gcp-terraform-release.yml'
       message: 'Apply job started for environment'
     secrets: inherit
