@@ -13,5 +13,5 @@ on:
       - "src/**"
 jobs:
   verify:
-    uses: medmera/shared-flows/.github/workflows/ci/maven/maven-simple-verify.yml@develop
+    uses: medmera/shared-flows/.github/workflows/maven-simple-verify.yml@develop
     secrets: inherit
