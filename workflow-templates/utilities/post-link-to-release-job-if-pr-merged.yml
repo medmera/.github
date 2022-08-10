@@ -10,7 +10,7 @@ on:
 jobs:
   if_merged:
     if: github.event.pull_request.merged == true
-    uses: medmera/shared-flows/.github/workflows/utilities/post-link-to-flow-if-pr-merged.yml@develop
+    uses: medmera/shared-flows/.github/workflows/post-link-to-flow-if-pr-merged.yml@develop
     with:
       # This filename might have to be updated to the name of the actual release workflow file
       release-workflow-filename: 'release.yml'
