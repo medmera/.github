@@ -1,0 +1,9 @@
+{
+  "name": "Post Link PR to release job",
+  "description": "Posts PR comment with link to release workflow job when a PR targeted for the branch develop is merged",
+  "iconName": "github",
+  "creator": "Platform Team",
+  "categories": [
+    "Utilities"
+  ]
+}
