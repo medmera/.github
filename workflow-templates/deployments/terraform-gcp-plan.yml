@@ -16,7 +16,7 @@ on:
       - "terraform/**"
 jobs:
   terraform:
-    uses: medmera/terraform-flows/.github/workflows/plan.yml@develop
+    uses: medmera/shared-flows/.github/workflows/deployments/terraform/terraform-gcp-plan.yml@develop
     with:
       branch-name: ${GITHUB_BASE_REF}
       working-directory: './terraform'

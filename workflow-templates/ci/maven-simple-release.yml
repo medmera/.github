@@ -9,5 +9,5 @@ on:
       - "src/**"
 jobs:
   release:
-    uses: medmera/java-flows/.github/workflows/maven-simple-release.yml@develop
+    uses: medmera/shared-flows/.github/workflows/ci/maven/maven-simple-release.yml@develop
     secrets: inherit
