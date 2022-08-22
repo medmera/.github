@@ -14,10 +14,10 @@ on:
       - "**/src/**"
 jobs:
   quick_verify:
-    uses: medmera/kafka-commons/.github/workflows/maven-quick-verify.yml@develop
+    uses: medmera/shared-flows/.github/workflows/maven-quick-verify.yml@develop
     secrets: inherit
   # Uncomment this job to deploy feature SNAPSHOTs
   #deploy:
   #  needs: quick_verify
-  #  uses: medmera/kafka-commons/.github/workflows/maven-deploy.yml@develop
+  #  uses: medmera/shared-flows/.github/workflows/maven-deploy.yml@develop
   #  secrets: inherit

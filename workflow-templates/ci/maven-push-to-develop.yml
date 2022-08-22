@@ -12,9 +12,9 @@ on:
       - "src/**"
 jobs:
   full_verify:
-    uses: medmera/kafka-commons/.github/workflows/maven-full-verify.yml@develop
+    uses: medmera/shared-flows/.github/workflows/maven-full-verify.yml@develop
     secrets: inherit
   release:
     needs: full_verify
-    uses: medmera/kafka-commons/.github/workflows/maven-release.yml@develop
+    uses: medmera/shared-flows/.github/workflows/maven-release.yml@develop
     secrets: inherit

@@ -19,5 +19,5 @@ on:
 jobs:
   full_verify:
     if: github.event.pull_request.draft == false
-    uses: medmera/kafka-commons/.github/workflows/maven-full-verify.yml@develop
+    uses: medmera/shared-flows/.github/workflows/maven-full-verify.yml@develop
     secrets: inherit
