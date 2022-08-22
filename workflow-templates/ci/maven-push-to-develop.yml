@@ -1,0 +1,20 @@
+##
+# Verifies (full) and Releases the project when code is pushed to the develop branch
+##
+name: Push to Develop
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - ".github/**"
+      - "pom.xml"
+      - "src/**"
+jobs:
+  full_verify:
+    uses: medmera/kafka-commons/.github/workflows/maven-full-verify.yml@develop
+    secrets: inherit
+  release:
+    needs: full_verify
+    uses: medmera/kafka-commons/.github/workflows/maven-release.yml@develop
+    secrets: inherit

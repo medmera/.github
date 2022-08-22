@@ -1,0 +1,11 @@
+{
+  "name": "Maven Push To Feature",
+  "description": "Verifies (quick) and optionally deploys a feature branch SNAPSHOT of the project when code is pushed to a feature  branch",
+  "iconName": "maven",
+  "creator": "Platform Team",
+  "categories": [
+    "Continuous integration",
+    "Maven",
+    "Java"
+  ]
+}

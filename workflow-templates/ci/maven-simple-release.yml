@@ -1,3 +1,6 @@
+##
+# Releases artifact automatically when code is pushed to the develop branch. This workflow is intended for simple testless builds.
+##
 name: Release
 on:
   push:

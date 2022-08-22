@@ -1,0 +1,11 @@
+{
+  "name": "Maven Push To Develop",
+  "description": "Verifies (full) and Releases the project when code is pushed to the develop branch",
+  "iconName": "maven",
+  "creator": "Platform Team",
+  "categories": [
+    "Continuous integration",
+    "Maven",
+    "Java"
+  ]
+}

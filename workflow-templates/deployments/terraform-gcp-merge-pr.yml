@@ -1,3 +1,6 @@
+##
+# Comment on PR when if it targets an environment branch and has been closed/merged
+##
 name: GCP Terraform Merge PR
 
 on:

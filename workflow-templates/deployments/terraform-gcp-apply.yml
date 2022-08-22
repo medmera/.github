@@ -1,3 +1,6 @@
+##
+# Runs Terraform apply for GCP Infrastructure when code is merged to an environment branch
+##
 name: GCP Terraform Apply
 on:
   push:

@@ -1,3 +1,6 @@
+##
+# Verify PRs that are targeted for the develop branch. This workflow is intended for simple testless builds.
+##
 name: Verify
 on:
   pull_request:

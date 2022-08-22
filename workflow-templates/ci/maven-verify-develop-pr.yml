@@ -1,0 +1,23 @@
+##
+# Verifies (full) a PR targeted for development
+##
+name: Verify PR to Develop
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - develop
+    paths:
+      - ".github/**"
+      - "pom.xml"
+      - "**/pom.xml"
+      - "**/src/**"
+
+jobs:
+  full_verify:
+    if: github.event.pull_request.draft == false
+    uses: medmera/kafka-commons/.github/workflows/maven-full-verify.yml@develop
+    secrets: inherit

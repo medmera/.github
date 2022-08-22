@@ -1,3 +1,6 @@
+##
+# Posts PR comment with link to release workflow job when a PR targeted for the branch develop is merged
+##
 name: Post Link if PR Merged
 
 on:
@@ -13,6 +16,6 @@ jobs:
     uses: medmera/shared-flows/.github/workflows/post-link-to-flow-if-pr-merged.yml@develop
     with:
       # This filename might have to be updated to the name of the actual release workflow file
-      release-workflow-filename: 'release.yml'
+      linked-workflow-filename: 'release.yml'
       message: 'Release job started for '
     secrets: inherit

@@ -1,0 +1,23 @@
+##
+# Verifies (quick) and optionally deploys a feature branch SNAPSHOT of the project when code is pushed to a feature branch
+##
+name: Push to Feature
+on:
+  push:
+    branches-ignore:
+      - develop
+      - master
+    paths:
+      - ".github/**"
+      - "pom.xml"
+      - "**/pom.xml"
+      - "**/src/**"
+jobs:
+  quick_verify:
+    uses: medmera/kafka-commons/.github/workflows/maven-quick-verify.yml@develop
+    secrets: inherit
+  # Uncomment this job to deploy feature SNAPSHOTs
+  #deploy:
+  #  needs: quick_verify
+  #  uses: medmera/kafka-commons/.github/workflows/maven-deploy.yml@develop
+  #  secrets: inherit

@@ -1,0 +1,11 @@
+{
+  "name": "Maven Push To Feature",
+  "description": "Verifies (full) a PR targeted for development",
+  "iconName": "maven",
+  "creator": "Platform Team",
+  "categories": [
+    "Continuous integration",
+    "Maven",
+    "Java"
+  ]
+}
