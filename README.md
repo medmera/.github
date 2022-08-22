@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Repository-GitHub%20Repo-5534eb)
+![](https://img.shields.io/badge/Language-Yaml-1a3a99)
 # Starter Workflows
 Starter workflows for the medmera organization.
 ## CI
