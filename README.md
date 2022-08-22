@@ -7,7 +7,7 @@ Verify PRs that are targeted for the develop branch. This workflow is intended f
 ### [Maven Simple Release](workflow-templates/ci/maven-simple-release.yml)
 Releases artifact automatically when code is pushed to the develop branch. This workflow is intended for simple testless builds.
 
-### [Maven Push to Feature](workflow-templates/ci/maven-push-to-feature.json)
+### [Maven Push to Feature](workflow-templates/ci/maven-push-to-feature.yml)
 Verifies (quick) and optionally deploys a feature branch SNAPSHOT of the project when code is pushed to a feature branch
 
 ### [Maven Verify Develop PR](workflow-templates/ci/maven-verify-develop-pr.yml)
