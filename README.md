@@ -1,10 +1,10 @@
 # Starter Workflows
 Starter workflows for the medmera organization.
 ## CI
-### [Maven Simple Verify](.github/workflow-templates/ci/maven-simple-verify.yml)
+### [Maven Simple Verify](workflow-templates/ci/maven-simple-verify.yml)
 Verify PRs that are targeted for the develop branch. This workflow is intended for simple testless builds.
 
-### [Maven Simple Release](.github/workflow-templates/ci/maven-simple-release.yml)
+### [Maven Simple Release](workflow-templates/ci/maven-simple-release.yml)
 Releases artifact automatically when code is pushed to the develop branch. This workflow is intended for simple testless builds.
 
 ### [Maven Push to Feature](workflow-templates/ci/maven-push-to-feature.json)
