@@ -1,5 +1,5 @@
 {
-  "name": "Maven Push To Feature",
+  "name": "Maven Verify development PR ",
   "description": "Verifies (full) a PR targeted for development",
   "iconName": "maven",
   "creator": "Platform Team",
