@@ -29,7 +29,7 @@ Runs Terraform apply for GCP Infrastructure when code is merged to an environmen
 Comment on PR when if it targets an environment branch and has been closed/merged
 
 ## Code Scan
-### [Maven Push to Develop](workflow-templates/code-scanning/maven-owasp-nightly-vulnarbiity-scan.yml)
+### [Maven Nightly Vulnarbility Scan](workflow-templates/code-scanning/maven-owasp-nightly-vulnarbiity-scan.yml)
 Scans dependencies for known vulnarbilities using OWASP maven plugin nightly
 
 ## Utilities
