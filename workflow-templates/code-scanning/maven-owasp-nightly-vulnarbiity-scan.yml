@@ -1,3 +1,6 @@
+##
+# Scans dependencies for known vulnarbilities using OWASP maven plugin nightly
+##
 name: Nightly Vulnarbility Scan
 on:
   schedule:
