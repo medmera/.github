@@ -1,0 +1,11 @@
+name: Nightly Vulnarbility Scan
+on:
+  schedule:
+    cron: "0 1 * * 1-5"
+
+jobs:
+  vulnarbility_scan:
+    uses: medmera/shared-flows/.github/workflows/maven-vulnarbility-scan.yml@develop
+    with:
+      ref: 'master'
+    secrets: inherit

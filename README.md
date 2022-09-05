@@ -28,6 +28,10 @@ Runs Terraform apply for GCP Infrastructure when code is merged to an environmen
 ### [Terraform (GCP) Merge PR](workflow-templates/deployments/terraform-gcp-merge-pr.yml)
 Comment on PR when if it targets an environment branch and has been closed/merged
 
+## Code Scan
+### [Maven Push to Develop](workflow-templates/code-scanning/maven-owasp-nightly-vulnarbiity-scan.yml)
+Scans dependencies for known vulnarbilities using OWASP maven plugin nightly
+
 ## Utilities
 ### [Post Link to Release Job if PR Merged](workflow-templates/utilities/post-link-to-release-job-if-pr-merged.yml)
 Posts PR comment with link to release workflow job when a PR targeted for the branch develop is merged

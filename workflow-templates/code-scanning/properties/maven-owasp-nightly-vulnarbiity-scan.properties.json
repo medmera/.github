@@ -1,0 +1,7 @@
+{
+  "name": "OWASP dependency check with Maven",
+  "creator": "Platform Team",
+  "description": "Scans dependencies for knows vulnarbilities using maven",
+  "iconName": "maven",
+  "categories": ["Code Scanning", "owasp", "dependency-management"]
+}
