@@ -3,5 +3,9 @@
   "creator": "Platform Team",
   "description": "Scans dependencies for known vulnarbilities using OWASP maven plugin nightly",
   "iconName": "maven",
-  "categories": ["Code Scanning", "owasp", "dependency-management"]
+  "categories": [
+    "Continuous integration",
+    "Maven",
+    "OWASP"
+  ]
 }
