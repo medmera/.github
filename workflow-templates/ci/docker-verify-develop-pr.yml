@@ -20,4 +20,4 @@ jobs:
     uses: medmera/shared-flows/.github/workflows/docker-build.yml@develop
     secrets: inherit
     with:
-      image-name: networking-debug
+      image-name: image-name # Change this
