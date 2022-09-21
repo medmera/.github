@@ -1,0 +1,23 @@
+##
+# Verifies a PRs targeted for development
+##
+name: Verify PR to Develop
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - develop
+    paths:
+      - ".github/**"
+      - "Dockerfile"
+
+jobs:
+  verify_docker_build:
+    if: github.event.pull_request.draft == false
+    uses: medmera/shared-flows/.github/workflows/docker-build.yml@develop
+    secrets: inherit
+    with:
+      image-name: networking-debug

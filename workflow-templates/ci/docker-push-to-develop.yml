@@ -1,0 +1,19 @@
+###
+# Builds and releases (pushes) docker images automatically, using short SHA as version number
+###
+name: Docker Build and Push
+
+on:
+  push:
+    branches:
+      - "develop"
+    paths:
+      - ".github/**"
+      - "Dockerfile"
+
+jobs:
+  docker_build_and_push:
+    uses: medmera/shared-flows/.github/workflows/docker-build-push.yml@develop
+    secrets: inherit
+    with:
+      image-name: networking-debug

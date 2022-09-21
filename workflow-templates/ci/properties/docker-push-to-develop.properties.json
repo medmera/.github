@@ -1,0 +1,10 @@
+{
+  "name": "Docker Push To Develop",
+  "description": "Builds and releases (pushes) docker images automatically, using short SHA as version number",
+  "iconName": "docker",
+  "creator": "Platform Team",
+  "categories": [
+    "Continuous integration",
+    "Docker"
+  ]
+}

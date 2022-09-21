@@ -1,0 +1,10 @@
+{
+  "name": "Docker Verify Develop PR",
+  "description": "Verifies a PRs targeted for development by building the docker image",
+  "iconName": "docker",
+  "creator": "Platform Team",
+  "categories": [
+    "Continuous integration",
+    "Docker"
+  ]
+}
