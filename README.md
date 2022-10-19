@@ -3,33 +3,33 @@
 # Starter Workflows
 Starter workflows for the medmera organization.
 ## CI
-### [Maven Simple Verify](workflow-templates/ci/maven-simple-verify.yml)
+### [Maven Simple Verify](workflow-templates/maven-simple-verify.yml)
 Verify PRs that are targeted for the develop branch. This workflow is intended for simple testless builds.
 
-### [Maven Simple Release](workflow-templates/ci/maven-simple-release.yml)
+### [Maven Simple Release](workflow-templates/maven-simple-release.yml)
 Releases artifact automatically when code is pushed to the develop branch. This workflow is intended for simple testless builds.
 
-### [Maven Push to Feature](workflow-templates/ci/maven-push-to-feature.yml)
+### [Maven Push to Feature](workflow-templates/maven-push-to-feature.yml)
 Verifies (quick) and optionally deploys a feature branch SNAPSHOT of the project when code is pushed to a feature branch
 
-### [Maven Verify Develop PR](workflow-templates/ci/maven-verify-develop-pr.yml)
+### [Maven Verify Develop PR](workflow-templates/maven-verify-develop-pr.yml)
 Verifies (full) a PR targeted for development
 
-### [Maven Push to Develop](workflow-templates/ci/maven-push-to-develop.yml)
+### [Maven Push to Develop](workflow-templates/maven-push-to-develop.yml)
 Verifies (full) and Releases the project when code is pushed to the develop branch
 
 ## Deployments
-### [Terraform (GCP) Plan](workflow-templates/deployments/terraform-gcp-plan.yml)
+### [Terraform (GCP) Plan](workflow-templates/terraform-gcp-plan.yml)
 Runs Terraform plan for GCP Infrastructure when a PR is created or updated targeting an environment branch
 
-### [Terraform (GCP) Apply](workflow-templates/deployments/terraform-gcp-apply.yml)
+### [Terraform (GCP) Apply](workflow-templates/terraform-gcp-apply.yml)
 Runs Terraform apply for GCP Infrastructure when code is merged to an environment branch
 
-### [Terraform (GCP) Merge PR](workflow-templates/deployments/terraform-gcp-merge-pr.yml)
+### [Terraform (GCP) Merge PR](workflow-templates/terraform-gcp-merge-pr.yml)
 Comment on PR when if it targets an environment branch and has been closed/merged
 
 ## Code Scan
-### [Maven Nightly Vulnarbility Scan](workflow-templates/ci/maven-owasp-nightly-vulnarbiity-scan.yml)
+### [Maven Nightly Vulnarbility Scan](workflow-templates/maven-owasp-nightly-vulnarbiity-scan.yml)
 Scans dependencies for known vulnarbilities using OWASP maven plugin nightly
 
 ## Utilities
