@@ -33,5 +33,5 @@ Comment on PR when if it targets an environment branch and has been closed/merge
 Scans dependencies for known vulnarbilities using OWASP maven plugin nightly
 
 ## Utilities
-### [Post Link to Release Job if PR Merged](workflow-templates/utilities/post-link-to-release-job-if-pr-merged.yml)
+### [Post Link to Release Job if PR Merged](workflow-templates/post-link-to-release-job-if-pr-merged.yml)
 Posts PR comment with link to release workflow job when a PR targeted for the branch develop is merged
